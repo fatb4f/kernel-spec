@@ -34,3 +34,8 @@ runner/go.sum
 
 # --- agent worktrees ---
 .codex/worktrees/
+
+# --- kernel-spec CUE work state ---
+.cue/tmp/
+.cue/cache/
+*.out
