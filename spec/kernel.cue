@@ -1,10 +1,14 @@
 package kernelspec
 
 #KernelSpec: close({
+	authority: #KernelAuthority
+
+	// Model A is the executable CUE closure of the bundled OSCAL API data model.
 	modelA:   #SemanticSpec
 	compiler: #CompilerKernel
 
-	// Model B is a derived compilation product, not an authored child authority.
+	// Model B is a derived transport compilation product, not a second API
+	// authority or an authored child model.
 	modelB?: #APIModel
 })
 
