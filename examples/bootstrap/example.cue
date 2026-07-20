@@ -13,17 +13,17 @@ kernel: ks.#CompilerKernel & {
 	modelKinds: {
 		"model-a": {
 			id:            "model-a"
-			description:   "Canonical CUE-native machine-readable specification graph"
+			description:   "Canonical executable CUE closure of the OSCAL-defined API data model"
 			authoritative: true
 		}
 		"model-a-fragment": {
 			id:            "model-a-fragment"
-			description:   "Imported contribution awaiting unification into Model A"
+			description:   "Imported contribution awaiting admission into the OSCAL Model A closure"
 			authoritative: false
 		}
 		"model-b": {
 			id:            "model-b"
-			description:   "Derived transport-neutral API model"
+			description:   "Derived transport-neutral API IR"
 			authoritative: false
 		}
 	}
