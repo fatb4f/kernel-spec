@@ -37,8 +37,11 @@ package kernelspec
 	dataType?: #ID
 })
 
-// Model B is generated. It owns no independently authored semantics.
+// Model B is generated from the authoritative Model A OSCAL API closure. It
+// owns no independently authored semantics and is not a parallel API model.
 #APIModel: close({
+	authority: #ModelBAuthority
+
 	identity: close({
 		id:       #ID
 		revision: #Revision
