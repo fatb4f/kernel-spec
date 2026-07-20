@@ -1,7 +1,10 @@
 package kernelspec
 
-// Model A is the only authored normative semantic authority.
+// Model A is the authoritative OSCAL API data model expressed and admitted
+// through the CUE semantic lattice.
 #SemanticSpec: close({
+	authority: #ModelAAuthority
+
 	identity: close({
 		id:       #ID
 		revision: #Revision
